@@ -17867,6 +17867,12 @@ PrefabInstance:
       objectReference: {fileID: 603861361}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d96c0846c7d644f72bfbf301de1def5c, type: 3}
+--- !u!1 &1456612903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8835582639856596533, guid: 2523e6f6e0eb00d4badd956079b183e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1707637818}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1704651543
 GameObject:
   m_ObjectHideFlags: 0
@@ -17914,6 +17920,26 @@ PrefabInstance:
       propertyPath: followObject
       value: 
       objectReference: {fileID: 8171158352695083175}
+    - target: {fileID: 8427549277374472137, guid: 2523e6f6e0eb00d4badd956079b183e2,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427549277374472137, guid: 2523e6f6e0eb00d4badd956079b183e2,
+        type: 3}
+      propertyPath: gravity.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427549277374472137, guid: 2523e6f6e0eb00d4badd956079b183e2,
+        type: 3}
+      propertyPath: gravity.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427549277374472137, guid: 2523e6f6e0eb00d4badd956079b183e2,
+        type: 3}
+      propertyPath: gravity.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596522, guid: 2523e6f6e0eb00d4badd956079b183e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -17922,12 +17948,12 @@ PrefabInstance:
     - target: {fileID: 8835582639856596522, guid: 2523e6f6e0eb00d4badd956079b183e2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.52
+      value: 4.66
       objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596522, guid: 2523e6f6e0eb00d4badd956079b183e2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.89
+      value: 5.54
       objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596522, guid: 2523e6f6e0eb00d4badd956079b183e2,
         type: 3}
@@ -17987,7 +18013,7 @@ PrefabInstance:
         type: 3}
       propertyPath: KillObject
       value: 
-      objectReference: {fileID: 8171158352695083175}
+      objectReference: {fileID: 1456612903}
     - target: {fileID: 8069981403973934898, guid: 9d461d80bdf468a4abb42d551f87c357,
         type: 3}
       propertyPath: directionX
@@ -18234,7 +18260,7 @@ PrefabInstance:
     - target: {fileID: 1481126516830738366, guid: ab3f7178010354d87a5016c7d6b23a5a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4307513
+      value: -6.091715
       objectReference: {fileID: 0}
     - target: {fileID: 1481126516830738366, guid: ab3f7178010354d87a5016c7d6b23a5a,
         type: 3}
@@ -18483,7 +18509,7 @@ PrefabInstance:
     - target: {fileID: 2950804947535917089, guid: 7c53998562858411aa85d8e0c4bc1333,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.206103
+      value: -17.0568
       objectReference: {fileID: 0}
     - target: {fileID: 2950804947535917089, guid: 7c53998562858411aa85d8e0c4bc1333,
         type: 3}
@@ -18575,11 +18601,23 @@ PrefabInstance:
       propertyPath: speed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 8171158353334016010, guid: 84535a21e4ab6412690b5fa8acc3908e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 7bfb43d7068f94aff8f20e9a7916bee6,
+        type: 2}
     - target: {fileID: 8171158353334016011, guid: 84535a21e4ab6412690b5fa8acc3908e,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8171158353334016012, guid: 84535a21e4ab6412690b5fa8acc3908e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f22540e8ea335034b92c27795aa254c6,
+        type: 3}
     - target: {fileID: 8171158353334016013, guid: 84535a21e4ab6412690b5fa8acc3908e,
         type: 3}
       propertyPath: m_RootOrder

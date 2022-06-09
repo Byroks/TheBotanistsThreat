@@ -1,175 +1,172 @@
 fileFormatVersion: 2
-guid: 49c622a43a706904588cf366c0b2b34d
+guid: 4fd3105310596f74eb10fac6eaf808f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8505394259119724601
-    second: Scavengers_SpriteSheet_edited2_0
+      213: 9143516775508190215
+    second: Scavengers_SpriteSheet_edited 1_0
   - first:
-      213: -1912975856219964869
-    second: Scavengers_SpriteSheet_edited2_1
+      213: -531210999356577143
+    second: Scavengers_SpriteSheet_edited 1_1
   - first:
-      213: -8535773208596096444
-    second: Scavengers_SpriteSheet_edited2_2
+      213: -5361094561363641611
+    second: Scavengers_SpriteSheet_edited 1_2
   - first:
-      213: 4843708837146579454
-    second: Scavengers_SpriteSheet_edited2_3
+      213: -4727819310718876143
+    second: Scavengers_SpriteSheet_edited 1_3
   - first:
-      213: 4135394126951789235
-    second: Scavengers_SpriteSheet_edited2_4
+      213: 4670696838929925995
+    second: Scavengers_SpriteSheet_edited 1_4
   - first:
-      213: 4856869484044125861
-    second: Scavengers_SpriteSheet_edited2_5
+      213: 916195320697967151
+    second: Scavengers_SpriteSheet_edited 1_5
   - first:
-      213: 6868395628534352404
-    second: Scavengers_SpriteSheet_edited2_6
+      213: 5308829368682987176
+    second: Scavengers_SpriteSheet_edited 1_6
   - first:
-      213: -4744757014408097263
-    second: Scavengers_SpriteSheet_edited2_7
+      213: 2016774866398283620
+    second: Scavengers_SpriteSheet_edited 1_7
   - first:
-      213: 2082044788373231493
-    second: Scavengers_SpriteSheet_edited2_8
+      213: -1725127649046215103
+    second: Scavengers_SpriteSheet_edited 1_8
   - first:
-      213: -5388624693741866795
-    second: Scavengers_SpriteSheet_edited2_9
+      213: 2879797947333711687
+    second: Scavengers_SpriteSheet_edited 1_9
   - first:
-      213: -6616825413405401407
-    second: Scavengers_SpriteSheet_edited2_10
+      213: 6394286980283719474
+    second: Scavengers_SpriteSheet_edited 1_10
   - first:
-      213: 7155418236308991970
-    second: Scavengers_SpriteSheet_edited2_11
+      213: -5505247984173951570
+    second: Scavengers_SpriteSheet_edited 1_11
   - first:
-      213: -7877682413138668891
-    second: Scavengers_SpriteSheet_edited2_12
+      213: -5428721822437327142
+    second: Scavengers_SpriteSheet_edited 1_12
   - first:
-      213: 1276851462069562688
-    second: Scavengers_SpriteSheet_edited2_13
+      213: -6707622593056458710
+    second: Scavengers_SpriteSheet_edited 1_13
   - first:
-      213: 1108556173544580066
-    second: Scavengers_SpriteSheet_edited2_14
+      213: -1084874924354680358
+    second: Scavengers_SpriteSheet_edited 1_14
   - first:
-      213: 7882209020348444427
-    second: Scavengers_SpriteSheet_edited2_15
+      213: -8788807995388217859
+    second: Scavengers_SpriteSheet_edited 1_15
   - first:
-      213: -255077775812670601
-    second: Scavengers_SpriteSheet_edited2_16
+      213: 7373355338842688874
+    second: Scavengers_SpriteSheet_edited 1_16
   - first:
-      213: 8146758485947313303
-    second: Scavengers_SpriteSheet_edited2_17
+      213: -522161383255712328
+    second: Scavengers_SpriteSheet_edited 1_17
   - first:
-      213: 1019986342401029854
-    second: Scavengers_SpriteSheet_edited2_18
+      213: 4158099681853783829
+    second: Scavengers_SpriteSheet_edited 1_18
   - first:
-      213: 1703156290347637759
-    second: Scavengers_SpriteSheet_edited2_19
+      213: 8359450412397341837
+    second: Scavengers_SpriteSheet_edited 1_19
   - first:
-      213: -8995782744711044995
-    second: Scavengers_SpriteSheet_edited2_20
+      213: 6450297931529791603
+    second: Scavengers_SpriteSheet_edited 1_20
   - first:
-      213: -2734741850640324578
-    second: Scavengers_SpriteSheet_edited2_21
+      213: 2413188566331834781
+    second: Scavengers_SpriteSheet_edited 1_21
   - first:
-      213: -3283371033275968376
-    second: Scavengers_SpriteSheet_edited2_22
+      213: 6979854846155025795
+    second: Scavengers_SpriteSheet_edited 1_22
   - first:
-      213: 2064743903230088505
-    second: Scavengers_SpriteSheet_edited2_23
+      213: -7808605155137732757
+    second: Scavengers_SpriteSheet_edited 1_23
   - first:
-      213: 6764997853885073262
-    second: Scavengers_SpriteSheet_edited2_24
+      213: 6916412869587390973
+    second: Scavengers_SpriteSheet_edited 1_24
   - first:
-      213: -3617084125833356814
-    second: Scavengers_SpriteSheet_edited2_25
+      213: 2672257234409364033
+    second: Scavengers_SpriteSheet_edited 1_25
   - first:
-      213: 1572224074761320732
-    second: Scavengers_SpriteSheet_edited2_26
+      213: 4790465784253178016
+    second: Scavengers_SpriteSheet_edited 1_26
   - first:
-      213: 7325162486473428754
-    second: Scavengers_SpriteSheet_edited2_27
+      213: 5136513023273972874
+    second: Scavengers_SpriteSheet_edited 1_27
   - first:
-      213: 3057888555272755808
-    second: Scavengers_SpriteSheet_edited2_28
+      213: 7763708626694901725
+    second: Scavengers_SpriteSheet_edited 1_28
   - first:
-      213: -7690119967061665499
-    second: Scavengers_SpriteSheet_edited2_29
+      213: 8113553364069500115
+    second: Scavengers_SpriteSheet_edited 1_29
   - first:
-      213: 9163118370672390345
-    second: Scavengers_SpriteSheet_edited2_30
+      213: 4513869149850691791
+    second: Scavengers_SpriteSheet_edited 1_30
   - first:
-      213: -5642392121762936397
-    second: Scavengers_SpriteSheet_edited2_31
+      213: -5912250900460137397
+    second: Scavengers_SpriteSheet_edited 1_31
   - first:
-      213: -8571733217349568826
-    second: Scavengers_SpriteSheet_edited2_32
+      213: 2848238270013582851
+    second: Scavengers_SpriteSheet_edited 1_32
   - first:
-      213: -3620115262337604380
-    second: Scavengers_SpriteSheet_edited2_33
+      213: -4858365229284960942
+    second: Scavengers_SpriteSheet_edited 1_33
   - first:
-      213: -4250897473658999575
-    second: Scavengers_SpriteSheet_edited2_34
+      213: -6509883374055677762
+    second: Scavengers_SpriteSheet_edited 1_34
   - first:
-      213: -7091506449691116184
-    second: Scavengers_SpriteSheet_edited2_35
+      213: -4968750084514348286
+    second: Scavengers_SpriteSheet_edited 1_35
   - first:
-      213: 2649805778652567470
-    second: Scavengers_SpriteSheet_edited2_36
+      213: 7765039754531363491
+    second: Scavengers_SpriteSheet_edited 1_36
   - first:
-      213: 4579450833220749256
-    second: Scavengers_SpriteSheet_edited2_37
+      213: 4933662541337490056
+    second: Scavengers_SpriteSheet_edited 1_37
   - first:
-      213: -5006403390406528818
-    second: Scavengers_SpriteSheet_edited2_38
+      213: 5999462412548812249
+    second: Scavengers_SpriteSheet_edited 1_38
   - first:
-      213: -1900910347359850245
-    second: Scavengers_SpriteSheet_edited2_39
+      213: 5564064192859525653
+    second: Scavengers_SpriteSheet_edited 1_39
   - first:
-      213: 7854404936899651326
-    second: Scavengers_SpriteSheet_edited2_40
+      213: 6161283379171753688
+    second: Scavengers_SpriteSheet_edited 1_40
   - first:
-      213: 5194193185082776471
-    second: Scavengers_SpriteSheet_edited2_41
+      213: -3412199442780715559
+    second: Scavengers_SpriteSheet_edited 1_41
   - first:
-      213: -446365222805214856
-    second: Scavengers_SpriteSheet_edited2_42
+      213: -2757600048951849365
+    second: Scavengers_SpriteSheet_edited 1_42
   - first:
-      213: 1875619515376918504
-    second: Scavengers_SpriteSheet_edited2_43
+      213: 2387003067307915833
+    second: Scavengers_SpriteSheet_edited 1_43
   - first:
-      213: 1610057680863528610
-    second: Scavengers_SpriteSheet_edited2_44
+      213: -9194047635212693272
+    second: Scavengers_SpriteSheet_edited 1_44
   - first:
-      213: -1869757133712782471
-    second: Scavengers_SpriteSheet_edited2_45
+      213: -1143674788205895590
+    second: Scavengers_SpriteSheet_edited 1_45
   - first:
-      213: -1288440633641067300
-    second: Scavengers_SpriteSheet_edited2_46
+      213: 4704052459406812886
+    second: Scavengers_SpriteSheet_edited 1_46
   - first:
-      213: -7347613487729671382
-    second: Scavengers_SpriteSheet_edited2_47
+      213: 1617440699700000700
+    second: Scavengers_SpriteSheet_edited 1_47
   - first:
-      213: -6745799180823980226
-    second: Scavengers_SpriteSheet_edited2_48
+      213: -6431875422776576808
+    second: Scavengers_SpriteSheet_edited 1_48
   - first:
-      213: -3318897562691517649
-    second: Scavengers_SpriteSheet_edited2_49
+      213: 8833450989519796970
+    second: Scavengers_SpriteSheet_edited 1_49
   - first:
-      213: 2758021072907458421
-    second: Scavengers_SpriteSheet_edited2_50
+      213: -734857820187835601
+    second: Scavengers_SpriteSheet_edited 1_50
   - first:
-      213: 4582781074326358540
-    second: Scavengers_SpriteSheet_edited2_51
+      213: 979873990689630155
+    second: Scavengers_SpriteSheet_edited 1_51
   - first:
-      213: 2150741484444352604
-    second: Scavengers_SpriteSheet_edited2_52
+      213: -2233054107681454614
+    second: Scavengers_SpriteSheet_edited 1_52
   - first:
-      213: 7076475340089576608
-    second: Scavengers_SpriteSheet_edited2_53
+      213: 2255349494208602846
+    second: Scavengers_SpriteSheet_edited 1_53
   - first:
-      213: -7685301847410622051
-    second: Scavengers_SpriteSheet_edited2_54
-  - first:
-      213: 4139192671949582001
-    second: Scavengers_SpriteSheet_edited2_55
+      213: 4943104320915563915
+    second: Scavengers_SpriteSheet_edited 1_54
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -256,7 +253,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Windows Store Apps
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -271,7 +268,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_0
+      name: Scavengers_SpriteSheet_edited 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -285,14 +282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c7a58e1cf4c6f980800000000000000
-      internalID: -8505394259119724601
+      spriteID: 704adf9101c44ee70800000000000000
+      internalID: 9143516775508190215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_1
+      name: Scavengers_SpriteSheet_edited 1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -306,14 +303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3a3c1a189eb375e0800000000000000
-      internalID: -1912975856219964869
+      spriteID: 98a229a1962c0a8f0800000000000000
+      internalID: -531210999356577143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_2
+      name: Scavengers_SpriteSheet_edited 1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -327,14 +324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44a5552cd77da8980800000000000000
-      internalID: -8535773208596096444
+      spriteID: 5fa34a696e09995b0800000000000000
+      internalID: -5361094561363641611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_3
+      name: Scavengers_SpriteSheet_edited 1_3
       rect:
         serializedVersion: 2
         x: 96
@@ -348,14 +345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1da89368f483340800000000000000
-      internalID: 4843708837146579454
+      spriteID: 1168e5ec269636eb0800000000000000
+      internalID: -4727819310718876143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_4
+      name: Scavengers_SpriteSheet_edited 1_4
       rect:
         serializedVersion: 2
         x: 128
@@ -369,14 +366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b2b2375c0fd36930800000000000000
-      internalID: 4135394126951789235
+      spriteID: b6745f15706a1d040800000000000000
+      internalID: 4670696838929925995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_5
+      name: Scavengers_SpriteSheet_edited 1_5
       rect:
         serializedVersion: 2
         x: 160
@@ -390,14 +387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a682ec1011176340800000000000000
-      internalID: 4856869484044125861
+      spriteID: f22d31b3acaf6bc00800000000000000
+      internalID: 916195320697967151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_6
+      name: Scavengers_SpriteSheet_edited 1_6
       rect:
         serializedVersion: 2
         x: 192
@@ -411,14 +408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41ac2af0f61715f50800000000000000
-      internalID: 6868395628534352404
+      spriteID: 8aeb285fe20cca940800000000000000
+      internalID: 5308829368682987176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_7
+      name: Scavengers_SpriteSheet_edited 1_7
       rect:
         serializedVersion: 2
         x: 224
@@ -432,14 +429,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11299aa52ac372eb0800000000000000
-      internalID: -4744757014408097263
+      spriteID: 4670b9f3e060dfb10800000000000000
+      internalID: 2016774866398283620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_8
+      name: Scavengers_SpriteSheet_edited 1_8
       rect:
         serializedVersion: 2
         x: 0
@@ -453,14 +450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 587907134b8e4ec10800000000000000
-      internalID: 2082044788373231493
+      spriteID: 14645661b8d1f08e0800000000000000
+      internalID: -1725127649046215103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_9
+      name: Scavengers_SpriteSheet_edited 1_9
       rect:
         serializedVersion: 2
         x: 32
@@ -474,14 +471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d03e952462c735b0800000000000000
-      internalID: -5388624693741866795
+      spriteID: 74799bba9f817f720800000000000000
+      internalID: 2879797947333711687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_10
+      name: Scavengers_SpriteSheet_edited 1_10
       rect:
         serializedVersion: 2
         x: 64
@@ -495,14 +492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ce913d08505c24a0800000000000000
-      internalID: -6616825413405401407
+      spriteID: 23f57b351221db850800000000000000
+      internalID: 6394286980283719474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_11
+      name: Scavengers_SpriteSheet_edited 1_11
       rect:
         serializedVersion: 2
         x: 96
@@ -516,14 +513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2efac8299f62d4360800000000000000
-      internalID: 7155418236308991970
+      spriteID: ea550ee502e6993b0800000000000000
+      internalID: -5505247984173951570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_12
+      name: Scavengers_SpriteSheet_edited 1_12
       rect:
         serializedVersion: 2
         x: 128
@@ -537,14 +534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a2178f3599dca290800000000000000
-      internalID: -7877682413138668891
+      spriteID: ade363dd34e49a4b0800000000000000
+      internalID: -5428721822437327142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_13
+      name: Scavengers_SpriteSheet_edited 1_13
       rect:
         serializedVersion: 2
         x: 160
@@ -558,14 +555,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04d2893c3a948b110800000000000000
-      internalID: 1276851462069562688
+      spriteID: a283c754accb9e2a0800000000000000
+      internalID: -6707622593056458710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_14
+      name: Scavengers_SpriteSheet_edited 1_14
       rect:
         serializedVersion: 2
         x: 192
@@ -579,14 +576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e3e0b967f1626f00800000000000000
-      internalID: 1108556173544580066
+      spriteID: ad94c141100c1f0f0800000000000000
+      internalID: -1084874924354680358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_15
+      name: Scavengers_SpriteSheet_edited 1_15
       rect:
         serializedVersion: 2
         x: 224
@@ -600,14 +597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0faf3f975b336d60800000000000000
-      internalID: 7882209020348444427
+      spriteID: df5b5cb71b1e70680800000000000000
+      internalID: -8788807995388217859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_16
+      name: Scavengers_SpriteSheet_edited 1_16
       rect:
         serializedVersion: 2
         x: 0
@@ -621,14 +618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77bc6964d18c57cf0800000000000000
-      internalID: -255077775812670601
+      spriteID: a6dc27e6d9b635660800000000000000
+      internalID: 7373355338842688874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_17
+      name: Scavengers_SpriteSheet_edited 1_17
       rect:
         serializedVersion: 2
         x: 32
@@ -642,14 +639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79ce9c9fda91f0170800000000000000
-      internalID: 8146758485947313303
+      spriteID: 8bddd9b0df8e0c8f0800000000000000
+      internalID: -522161383255712328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_18
+      name: Scavengers_SpriteSheet_edited 1_18
       rect:
         serializedVersion: 2
         x: 64
@@ -663,14 +660,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed6309e9c28b72e00800000000000000
-      internalID: 1019986342401029854
+      spriteID: 51f3f8d41a984b930800000000000000
+      internalID: 4158099681853783829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_19
+      name: Scavengers_SpriteSheet_edited 1_19
       rect:
         serializedVersion: 2
         x: 96
@@ -684,14 +681,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffb94235f93d2a710800000000000000
-      internalID: 1703156290347637759
+      spriteID: d8caf6c1cdbb20470800000000000000
+      internalID: 8359450412397341837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_20
+      name: Scavengers_SpriteSheet_edited 1_20
       rect:
         serializedVersion: 2
         x: 128
@@ -705,14 +702,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d70e8e0614f882380800000000000000
-      internalID: -8995782744711044995
+      spriteID: 37825482bcf048950800000000000000
+      internalID: 6450297931529791603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_21
+      name: Scavengers_SpriteSheet_edited 1_21
       rect:
         serializedVersion: 2
         x: 160
@@ -726,14 +723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e186030b6ce3c0ad0800000000000000
-      internalID: -2734741850640324578
+      spriteID: d914e38273e5d7120800000000000000
+      internalID: 2413188566331834781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_22
+      name: Scavengers_SpriteSheet_edited 1_22
       rect:
         serializedVersion: 2
         x: 192
@@ -747,14 +744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88457c7f07f1f62d0800000000000000
-      internalID: -3283371033275968376
+      spriteID: 38debd0700d6dd060800000000000000
+      internalID: 6979854846155025795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_23
+      name: Scavengers_SpriteSheet_edited 1_23
       rect:
         serializedVersion: 2
         x: 224
@@ -768,14 +765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 935de28f3a177ac10800000000000000
-      internalID: 2064743903230088505
+      spriteID: b6f3bb0bbf242a390800000000000000
+      internalID: -7808605155137732757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_24
+      name: Scavengers_SpriteSheet_edited 1_24
       rect:
         serializedVersion: 2
         x: 0
@@ -789,14 +786,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e678913a4b912ed50800000000000000
-      internalID: 6764997853885073262
+      spriteID: df152b33cd80cff50800000000000000
+      internalID: 6916412869587390973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_25
+      name: Scavengers_SpriteSheet_edited 1_25
       rect:
         serializedVersion: 2
         x: 32
@@ -810,14 +807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f99ff4d6298dcdc0800000000000000
-      internalID: -3617084125833356814
+      spriteID: 14a1075ebc3c51520800000000000000
+      internalID: 2672257234409364033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_26
+      name: Scavengers_SpriteSheet_edited 1_26
       rect:
         serializedVersion: 2
         x: 64
@@ -831,14 +828,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c19377b4779a1d510800000000000000
-      internalID: 1572224074761320732
+      spriteID: 0a0e213ff372b7240800000000000000
+      internalID: 4790465784253178016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_27
+      name: Scavengers_SpriteSheet_edited 1_27
       rect:
         serializedVersion: 2
         x: 96
@@ -852,14 +849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21f0448987438a560800000000000000
-      internalID: 7325162486473428754
+      spriteID: a84b968516f884740800000000000000
+      internalID: 5136513023273972874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_28
+      name: Scavengers_SpriteSheet_edited 1_28
       rect:
         serializedVersion: 2
         x: 128
@@ -873,14 +870,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ad3cb807dcf6a20800000000000000
-      internalID: 3057888555272755808
+      spriteID: ddf09c1bcdb3ebb60800000000000000
+      internalID: 7763708626694901725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_29
+      name: Scavengers_SpriteSheet_edited 1_29
       rect:
         serializedVersion: 2
         x: 160
@@ -894,14 +891,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 529962b42a4374590800000000000000
-      internalID: -7690119967061665499
+      spriteID: 3d4c9831cc1299070800000000000000
+      internalID: 8113553364069500115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_30
+      name: Scavengers_SpriteSheet_edited 1_30
       rect:
         serializedVersion: 2
         x: 192
@@ -915,14 +912,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c0b8ce1c9fe92f70800000000000000
-      internalID: 9163118370672390345
+      spriteID: fc8e177831c74ae30800000000000000
+      internalID: 4513869149850691791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_31
+      name: Scavengers_SpriteSheet_edited 1_31
       rect:
         serializedVersion: 2
         x: 224
@@ -936,14 +933,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b98bda824232b1b0800000000000000
-      internalID: -5642392121762936397
+      spriteID: b441717612773fda0800000000000000
+      internalID: -5912250900460137397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_32
+      name: Scavengers_SpriteSheet_edited 1_32
       rect:
         serializedVersion: 2
         x: 0
@@ -957,14 +954,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c67676cd061b0980800000000000000
-      internalID: -8571733217349568826
+      spriteID: 30e25dfad99f68720800000000000000
+      internalID: 2848238270013582851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_33
+      name: Scavengers_SpriteSheet_edited 1_33
       rect:
         serializedVersion: 2
         x: 32
@@ -978,14 +975,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e4a56e5954c2cdc0800000000000000
-      internalID: -3620115262337604380
+      spriteID: 2555c5f809e939cb0800000000000000
+      internalID: -4858365229284960942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_34
+      name: Scavengers_SpriteSheet_edited 1_34
       rect:
         serializedVersion: 2
         x: 64
@@ -999,14 +996,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ec23f91547c105c0800000000000000
-      internalID: -4250897473658999575
+      spriteID: eb0a038ef8f38a5a0800000000000000
+      internalID: -6509883374055677762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_35
+      name: Scavengers_SpriteSheet_edited 1_35
       rect:
         serializedVersion: 2
         x: 96
@@ -1020,14 +1017,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86df4c7d478e59d90800000000000000
-      internalID: -7091506449691116184
+      spriteID: 20384daaf147b0bb0800000000000000
+      internalID: -4968750084514348286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_36
+      name: Scavengers_SpriteSheet_edited 1_36
       rect:
         serializedVersion: 2
         x: 128
@@ -1041,14 +1038,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea71d50015006c420800000000000000
-      internalID: 2649805778652567470
+      spriteID: 3aad0ab0486f2cb60800000000000000
+      internalID: 7765039754531363491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_37
+      name: Scavengers_SpriteSheet_edited 1_37
       rect:
         serializedVersion: 2
         x: 160
@@ -1062,14 +1059,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c74d74154a7d8f30800000000000000
-      internalID: 4579450833220749256
+      spriteID: 882721211f3e77440800000000000000
+      internalID: 4933662541337490056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_38
+      name: Scavengers_SpriteSheet_edited 1_38
       rect:
         serializedVersion: 2
         x: 192
@@ -1083,14 +1080,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec0f18834aea58ab0800000000000000
-      internalID: -5006403390406528818
+      spriteID: 9dda747174f524350800000000000000
+      internalID: 5999462412548812249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_39
+      name: Scavengers_SpriteSheet_edited 1_39
       rect:
         serializedVersion: 2
         x: 224
@@ -1104,14 +1101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf070cb4c1c9e95e0800000000000000
-      internalID: -1900910347359850245
+      spriteID: 512dcda57e6873d40800000000000000
+      internalID: 5564064192859525653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_40
+      name: Scavengers_SpriteSheet_edited 1_40
       rect:
         serializedVersion: 2
         x: 0
@@ -1125,14 +1122,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef66af9fca3700d60800000000000000
-      internalID: 7854404936899651326
+      spriteID: 8defc08e696418550800000000000000
+      internalID: 6161283379171753688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_41
+      name: Scavengers_SpriteSheet_edited 1_41
       rect:
         serializedVersion: 2
         x: 32
@@ -1146,14 +1143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79b1d9b8e2b751840800000000000000
-      internalID: 5194193185082776471
+      spriteID: 9d505467fae65a0d0800000000000000
+      internalID: -3412199442780715559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_42
+      name: Scavengers_SpriteSheet_edited 1_42
       rect:
         serializedVersion: 2
         x: 64
@@ -1167,14 +1164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8796b9ed1313ec9f0800000000000000
-      internalID: -446365222805214856
+      spriteID: b6e00a9ad590bb9d0800000000000000
+      internalID: -2757600048951849365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_43
+      name: Scavengers_SpriteSheet_edited 1_43
       rect:
         serializedVersion: 2
         x: 96
@@ -1188,14 +1185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8efd4d3030a870a10800000000000000
-      internalID: 1875619515376918504
+      spriteID: 93af7a094a6502120800000000000000
+      internalID: 2387003067307915833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_44
+      name: Scavengers_SpriteSheet_edited 1_44
       rect:
         serializedVersion: 2
         x: 128
@@ -1209,14 +1206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a682c72ee2185610800000000000000
-      internalID: 1610057680863528610
+      spriteID: 8e0902f436e286080800000000000000
+      internalID: -9194047635212693272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_45
+      name: Scavengers_SpriteSheet_edited 1_45
       rect:
         serializedVersion: 2
         x: 160
@@ -1230,14 +1227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97b0cc41bc94d06e0800000000000000
-      internalID: -1869757133712782471
+      spriteID: a50ea6ee6d9d020f0800000000000000
+      internalID: -1143674788205895590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_46
+      name: Scavengers_SpriteSheet_edited 1_46
       rect:
         serializedVersion: 2
         x: 192
@@ -1251,14 +1248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdc15a5f11a8e1ee0800000000000000
-      internalID: -1288440633641067300
+      spriteID: 6d6eeb7e9c6284140800000000000000
+      internalID: 4704052459406812886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_47
+      name: Scavengers_SpriteSheet_edited 1_47
       rect:
         serializedVersion: 2
         x: 224
@@ -1272,14 +1269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2301055678080a90800000000000000
-      internalID: -7347613487729671382
+      spriteID: cb7b0ee2fbd427610800000000000000
+      internalID: 1617440699700000700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_48
+      name: Scavengers_SpriteSheet_edited 1_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1293,14 +1290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e379dd4c26b1262a0800000000000000
-      internalID: -6745799180823980226
+      spriteID: 8d436d961636db6a0800000000000000
+      internalID: -6431875422776576808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_49
+      name: Scavengers_SpriteSheet_edited 1_49
       rect:
         serializedVersion: 2
         x: 32
@@ -1314,14 +1311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f23ccd14048e0f1d0800000000000000
-      internalID: -3318897562691517649
+      spriteID: aea76239fd8b69a70800000000000000
+      internalID: 8833450989519796970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_50
+      name: Scavengers_SpriteSheet_edited 1_50
       rect:
         serializedVersion: 2
         x: 64
@@ -1335,14 +1332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 577d0bd9d85764620800000000000000
-      internalID: 2758021072907458421
+      spriteID: f23494bb4b24dc5f0800000000000000
+      internalID: -734857820187835601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_51
+      name: Scavengers_SpriteSheet_edited 1_51
       rect:
         serializedVersion: 2
         x: 96
@@ -1356,14 +1353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0a0b924b1f499f30800000000000000
-      internalID: 4582781074326358540
+      spriteID: bc723b3f336399d00800000000000000
+      internalID: 979873990689630155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_52
+      name: Scavengers_SpriteSheet_edited 1_52
       rect:
         serializedVersion: 2
         x: 128
@@ -1377,14 +1374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5080082cf7f8dd10800000000000000
-      internalID: 2150741484444352604
+      spriteID: ae58b6bce199201e0800000000000000
+      internalID: -2233054107681454614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_53
+      name: Scavengers_SpriteSheet_edited 1_53
       rect:
         serializedVersion: 2
         x: 160
@@ -1398,14 +1395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0acc9db34d0b43260800000000000000
-      internalID: 7076475340089576608
+      spriteID: ed229a66a6c9c4f10800000000000000
+      internalID: 2255349494208602846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_54
+      name: Scavengers_SpriteSheet_edited 1_54
       rect:
         serializedVersion: 2
         x: 192
@@ -1419,29 +1416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d91cf6130b2585590800000000000000
-      internalID: -7685301847410622051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scavengers_SpriteSheet_edited2_55
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1be64740ecd517930800000000000000
-      internalID: 4139192671949582001
+      spriteID: b85eedfa03f699440800000000000000
+      internalID: 4943104320915563915
       vertices: []
       indices: 
       edges: []
