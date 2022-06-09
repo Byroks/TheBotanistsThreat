@@ -11,7 +11,7 @@ public class Patrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(directionX * Time.deltaTime, directionY, 0);
+        transform.Translate(directionX * Time.deltaTime, directionY  * Time.deltaTime, 0);
     }
 
     public void OnCollisionEnter2D(Collision2D other){
