@@ -6,6 +6,7 @@ public class FollowObject : MonoBehaviour
 {
     public GameObject followObject;
     public AIPath aiPath;
+    public float chaseDistance = 5f;
     
     // Update is called once per frame
     void Update()
@@ -30,7 +31,20 @@ public class FollowObject : MonoBehaviour
             transform.localScale = new Vector3 (1f, 1f, 1f);
         }
 
+        if(aiPath.remainingDistance > chaseDistance){
+            aiPath.isStopped = true;
+        }
+        else if(aiPath.isStopped)
+        {
+            aiPath.isStopped = false;
+        }
     }
+
+    // public void OnTriggerEnter2D(Collider2D collision){
+    //     if(collision.tag == "Player"){
+    //         Debug.Log("Found you!");
+    //     }
+    // }
 
     public void OnCollisionEnter2D(Collision2D other){
         if(other.gameObject == followObject)
