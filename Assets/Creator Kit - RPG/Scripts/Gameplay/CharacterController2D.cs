@@ -76,7 +76,13 @@ namespace RPGM.Gameplay
                     MoveState();
                     break;
             }
+            
+            if (Input.GetKeyDown("r"))
+            {
+                FindObjectOfType<GameManager>().GameOver();
+            }
         }
+        
 
         void LateUpdate()
         {
@@ -92,5 +98,12 @@ namespace RPGM.Gameplay
             spriteRenderer = GetComponent<SpriteRenderer>();
             pixelPerfectCamera = GameObject.FindObjectOfType<PixelPerfectCamera>();
         }
+
+        void OnCollisionEnter2D(Collision2D other){
+        if(other.gameObject.tag == "Enemy"){
+            FindObjectOfType<GameManager>().GameOver();
+        }
+
+    }
     }
 }

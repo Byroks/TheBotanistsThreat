@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followObject: {fileID: 0}
   aiPath: {fileID: 8427549277374472137}
+  chaseDistance: 5
 --- !u!58 &443571696733999093
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -212,7 +213,7 @@ GameObject:
   - component: {fileID: 4874127756157628239}
   m_Layer: 0
   m_Name: FollowPlant
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,16 +244,16 @@ Rigidbody2D:
   m_GameObject: {fileID: 8835582639856596533}
   m_BodyType: 0
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 20
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &3731436859241019498
 MonoBehaviour:
@@ -298,8 +299,8 @@ MonoBehaviour:
   radius: 2
   height: 1.5
   canMove: 1
-  maxSpeed: 1
-  gravity: {x: NaN, y: NaN, z: NaN}
+  maxSpeed: 4
+  gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -315,15 +316,15 @@ MonoBehaviour:
     maximumInterval: 2
     visualizeSensitivity: 0
   targetCompatibility: {fileID: 0}
-  maxAcceleration: -2.5
+  maxAcceleration: 10
   rotationSpeed: 360
-  slowdownDistance: 0.6
+  slowdownDistance: 0
   pickNextWaypointDist: 1.2
   endReachedDistance: 0
-  alwaysDrawGizmos: 1
+  alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 1
-  constrainInsideGraph: 1
+  constrainInsideGraph: 0
 --- !u!114 &4874127756157628239
 MonoBehaviour:
   m_ObjectHideFlags: 0
