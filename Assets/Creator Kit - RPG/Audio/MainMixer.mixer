@@ -6,7 +6,7 @@ AudioMixerController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AudioMixer
+  m_Name: MainMixer
   m_OutputGroup: {fileID: 0}
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
@@ -15,7 +15,9 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: f459ac8ed6c0b44188b4b1a70baec045
+    name: Volume
   m_AudioMixerGroupViews:
   - guids:
     - 9fe0ae0e144684c1b890e52a0392e270
@@ -38,6 +40,7 @@ AudioMixerGroupController:
   - {fileID: 243586827444500310}
   m_Volume: f459ac8ed6c0b44188b4b1a70baec045
   m_Pitch: 847bb80b810f84ae280b488ad823d07c
+  m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 24400004}
   m_UserColorIndex: 0
@@ -85,6 +88,7 @@ AudioMixerGroupController:
   m_Children: []
   m_Volume: 4b1d8517bec304481889b92525804533
   m_Pitch: 10219afbd2123499a8144d8428a05c16
+  m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 244608590320889822}
   - {fileID: 244712612929875224}
@@ -104,6 +108,7 @@ AudioMixerGroupController:
   m_Children: []
   m_Volume: afcba3c2949c84060821d288a4d4e2aa
   m_Pitch: 83560423b058840fbb8767d73392849e
+  m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 244555957743583492}
   - {fileID: 244264252281338792}
