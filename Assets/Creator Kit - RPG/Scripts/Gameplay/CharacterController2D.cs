@@ -76,11 +76,6 @@ namespace RPGM.Gameplay
                     MoveState();
                     break;
             }
-            
-            if (Input.GetKeyDown("r"))
-            {
-                FindObjectOfType<GameManager>().GameOver();
-            }
         }
         
 

@@ -40,16 +40,10 @@ public class FollowObject : MonoBehaviour
         }
     }
 
-    // public void OnTriggerEnter2D(Collider2D collision){
-    //     if(collision.tag == "Player"){
-    //         Debug.Log("Found you!");
-    //     }
-    // }
+    public void OnCollisionEnter2D(Collision2D other){
+        if(other.gameObject == followObject){
+            Destroy(followObject);
+        }
 
-    // public void OnCollisionEnter2D(Collision2D other){
-    //     if(other.gameObject == followObject){
-    //         Destroy(followObject);
-    //     }
-
-    // }
+    }
 }
