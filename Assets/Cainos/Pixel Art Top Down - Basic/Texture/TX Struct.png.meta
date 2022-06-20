@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: TX Stairs M L
+    second: TX Stairs L 1
   - first:
       213: 21300002
-    second: TX Stairs M R
+    second: TX Stairs R 1
   - first:
       213: 21300004
-    second: TX Stairs M M
+    second: TX Stairs M 1
   - first:
       213: 21300006
     second: TX Stairs West
@@ -19,13 +19,13 @@ TextureImporter:
     second: TX Stairs West F
   - first:
       213: 21300010
-    second: TX Stairs L L
+    second: TX Stairs L 2
   - first:
       213: 21300012
-    second: TX Stairs L R
+    second: TX Stairs L 3
   - first:
       213: 21300014
-    second: TX Stairs L M
+    second: TX Stairs M 2
   - first:
       213: 21300016
     second: TX Struct Gate T2 T
@@ -34,13 +34,13 @@ TextureImporter:
     second: TX Struct Gate T2 B
   - first:
       213: 21300020
-    second: TX Stairs R L
+    second: TX Stairs R 2
   - first:
       213: 21300022
-    second: TX Stairs R M
+    second: TX Stairs M 3
   - first:
       213: 21300024
-    second: TX Stairs R R
+    second: TX Stairs R 3
   - first:
       213: 21300026
     second: TX Struct Gate T1 B
@@ -49,31 +49,91 @@ TextureImporter:
     second: TX Struct Gate T1 T
   - first:
       213: 21300030
-    second: TX Stairs Broken M M
+    second: TX Stairs Broken M 1
   - first:
       213: 21300032
-    second: TX Stairs Broken M R
+    second: TX Stairs Broken R 1
   - first:
       213: 21300034
-    second: TX Stairs Broken L L
+    second: TX Stairs Broken L 2
   - first:
       213: 21300036
-    second: TX Stairs Broken L M
+    second: TX Stairs Broken M 2
   - first:
       213: 21300038
-    second: TX Stairs Broken L R
+    second: TX Stairs Broken L 3
   - first:
       213: 21300040
-    second: TX Stairs Broken R L
+    second: TX Stairs Broken R 2
   - first:
       213: 21300042
-    second: TX Stairs Broken R M
+    second: TX Stairs Broken M 3
   - first:
       213: 21300044
-    second: TX Stairs Broken R R
+    second: TX Stairs Broken R
   - first:
       213: 21300046
-    second: TX Stairs Broken M L
+    second: TX Stairs Broken L 1
+  - first:
+      213: -5380237423685108026
+    second: TX Struct_0
+  - first:
+      213: 141675554456027117
+    second: TX Struct_1
+  - first:
+      213: 5869078902113103909
+    second: TX Struct_2
+  - first:
+      213: -7381738133999487609
+    second: TX Struct_3
+  - first:
+      213: -510105923369629673
+    second: TX Struct_4
+  - first:
+      213: -2677049488981355681
+    second: TX Struct_5
+  - first:
+      213: -3684389700825655485
+    second: TX Struct_6
+  - first:
+      213: -5664187630041763615
+    second: TX Struct_7
+  - first:
+      213: -5738710736683564370
+    second: TX Struct_8
+  - first:
+      213: -7037961563414481546
+    second: TX Struct_9
+  - first:
+      213: -8057005470267399406
+    second: TX Struct_10
+  - first:
+      213: 458263882440149975
+    second: TX Struct_11
+  - first:
+      213: 5155980111656350350
+    second: TX Struct_12
+  - first:
+      213: 8997360649946627436
+    second: TX Struct_13
+  - first:
+      213: 6375610903019473629
+    second: TX Struct_14
+  - first:
+      213: -7409667131368046167
+    second: TX Struct_15
+  - first:
+      213: 3043689175084887285
+    second: TX Struct_16
+  - first:
+      213: 1322749239958643334
+    second: TX Struct_17
+  - first:
+      213: -5352058727574748274
+    second: TX Struct_18
+  - first:
+      213: -6030128963436766697
+    second: TX Struct_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -146,7 +206,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -158,20 +218,32 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TX Stairs M L
+      name: TX Stairs L 1
       rect:
         serializedVersion: 2
         x: 32
         y: 384
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,15 +256,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs M R
+      name: TX Stairs R 1
       rect:
         serializedVersion: 2
         x: 88
         y: 384
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,15 +277,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs M M
+      name: TX Stairs M 1
       rect:
         serializedVersion: 2
         x: 40
         y: 384
         width: 48
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,15 +298,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs L L
+      name: TX Stairs L 2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
+        x: 32
+        y: 416
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,15 +319,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs L R
+      name: TX Stairs L 3
       rect:
         serializedVersion: 2
-        x: 185
-        y: 384
+        x: 32
+        y: 448
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,15 +340,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs L M
+      name: TX Stairs M 2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 384
-        width: 49
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 40
+        y: 416
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,34 +361,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Struct Gate T2 T
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 466
-        width: 80
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 443bab2316fa4a94d8fee39b0034c1b3
-      internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: TX Struct Gate T2 B
       rect:
         serializedVersion: 2
-        x: 416
+        x: 408
         y: 421
-        width: 64
-        height: 45
+        width: 80
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,15 +382,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs R L
+      name: TX Stairs R 2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 384
+        x: 88
+        y: 416
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,15 +403,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs R M
+      name: TX Stairs M 3
       rect:
         serializedVersion: 2
-        x: 232
-        y: 384
-        width: 49
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 40
+        y: 448
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,15 +424,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs R R
+      name: TX Stairs R 3
       rect:
         serializedVersion: 2
-        x: 281
-        y: 384
+        x: 88
+        y: 448
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,10 +450,10 @@ TextureImporter:
         serializedVersion: 2
         x: 416
         y: 320
-        width: 64
+        width: 22
         height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,36 +466,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Struct Gate T1 T
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 365
-        width: 64
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fe8ef7d9527ba54f9ae5aedb13a66b2
-      internalID: 21300028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TX Stairs Broken M M
+      name: TX Stairs Broken M 1
       rect:
         serializedVersion: 2
         x: 40
         y: 256
         width: 48
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,15 +487,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs Broken M R
+      name: TX Stairs Broken R 1
       rect:
         serializedVersion: 2
         x: 88
         y: 256
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,15 +508,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs Broken L L
+      name: TX Stairs Broken L 2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
+        x: 32
+        y: 288
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,15 +529,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs Broken L M
+      name: TX Stairs Broken M 2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 256
-        width: 49
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 40
+        y: 288
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -520,15 +550,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs Broken L R
+      name: TX Stairs Broken L 3
       rect:
         serializedVersion: 2
-        x: 185
-        y: 256
+        x: 32
+        y: 320
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,15 +571,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs Broken R L
+      name: TX Stairs Broken R 2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 256
+        x: 88
+        y: 288
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,15 +592,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs Broken R M
+      name: TX Stairs Broken M 3
       rect:
         serializedVersion: 2
-        x: 232
-        y: 256
-        width: 49
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 40
+        y: 320
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -583,15 +613,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs Broken R R
+      name: TX Stairs Broken R
       rect:
         serializedVersion: 2
-        x: 281
-        y: 256
+        x: 88
+        y: 320
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -604,15 +634,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Stairs Broken M L
+      name: TX Stairs Broken L 1
       rect:
         serializedVersion: 2
         x: 32
         y: 256
         width: 8
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -620,6 +650,426 @@ TextureImporter:
       bones: []
       spriteID: 7a1abfab279448845870b1256227c941
       internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 8
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce7cf1a19e8555b0800000000000000
+      internalID: -5380237423685108026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 8
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def35b88a2557f100800000000000000
+      internalID: 141675554456027117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 8
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520f03f6a28237150800000000000000
+      internalID: 5869078902113103909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 448
+        width: 8
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785710af64cce8990800000000000000
+      internalID: -7381738133999487609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 416
+        width: 8
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7180bb78d5dbbe8f0800000000000000
+      internalID: -510105923369629673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 384
+        width: 8
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5310236ca539dad0800000000000000
+      internalID: -2677049488981355681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 448
+        width: 49
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347dd2c761b6edcc0800000000000000
+      internalID: -3684389700825655485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 416
+        width: 49
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0f2325c53c461b0800000000000000
+      internalID: -5664187630041763615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 384
+        width: 49
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2814f6df00c50b0800000000000000
+      internalID: -5738710736683564370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 8
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675b3dd2f33245e90800000000000000
+      internalID: -7037961563414481546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 8
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213255f6634cf2090800000000000000
+      internalID: -8057005470267399406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 8
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db8c36b2941c5600800000000000000
+      internalID: 458263882440149975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 320
+        width: 49
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8271401898bd8740800000000000000
+      internalID: 5155980111656350350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 288
+        width: 49
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d752057db0ddc70800000000000000
+      internalID: 8997360649946627436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 256
+        width: 49
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda459c3658ba7850800000000000000
+      internalID: 6375610903019473629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 320
+        width: 8
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a18bea80039b2990800000000000000
+      internalID: -7409667131368046167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 288
+        width: 8
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fce2a7bd2b5d3a20800000000000000
+      internalID: 3043689175084887285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 256
+        width: 8
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68227aeec695b5210800000000000000
+      internalID: 1322749239958643334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_18
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 320
+        width: 22
+        height: 45
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83c0e591faa9b5b0800000000000000
+      internalID: -5352058727574748274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Struct_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 365
+        width: 64
+        height: 19
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a9e8028ada05ca0800000000000000
+      internalID: -6030128963436766697
       vertices: []
       indices: 
       edges: []
