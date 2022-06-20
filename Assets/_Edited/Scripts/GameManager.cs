@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public float restartDelay = 0.5f;
     public static bool GameIsPause = false;
     public GameObject pauseMenuUI;
+    public GameObject GameOverUI;
 
     void Update() {
         if (Input.GetKeyDown("r"))
@@ -42,12 +43,14 @@ public class GameManager : MonoBehaviour
 
     public void Restart(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1;
     }
 
     public void GameOver(){
         if(!gameHasEnded){
             gameHasEnded = true;
-            Invoke("Restart", restartDelay);
+            GameOverUI.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }
