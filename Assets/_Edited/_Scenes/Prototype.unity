@@ -25518,7 +25518,7 @@ PrefabInstance:
         type: 3}
       propertyPath: KillObject
       value: 
-      objectReference: {fileID: 692824282}
+      objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596522, guid: b1fdbeed9f683794eb4a7249a21c5463,
         type: 3}
       propertyPath: m_RootOrder
@@ -26008,7 +26008,7 @@ PrefabInstance:
         type: 3}
       propertyPath: followObject
       value: 
-      objectReference: {fileID: 692824282}
+      objectReference: {fileID: 0}
     - target: {fileID: 8427549277374472137, guid: 2523e6f6e0eb00d4badd956079b183e2,
         type: 3}
       propertyPath: maxSpeed
@@ -26200,12 +26200,6 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 6943210775000656825, guid: fb58dc84dca7b49f99bde3835c80609b,
     type: 3}
   m_PrefabInstance: {fileID: 684986547}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &692824282 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8171158353334016015, guid: 84535a21e4ab6412690b5fa8acc3908e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8171158352695083174}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &699943167
 PrefabInstance:
@@ -26930,7 +26924,7 @@ PrefabInstance:
         type: 3}
       propertyPath: KillObject
       value: 
-      objectReference: {fileID: 692824282}
+      objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596522, guid: b1fdbeed9f683794eb4a7249a21c5463,
         type: 3}
       propertyPath: m_RootOrder
@@ -27076,7 +27070,7 @@ PrefabInstance:
         type: 3}
       propertyPath: KillObject
       value: 
-      objectReference: {fileID: 692824282}
+      objectReference: {fileID: 0}
     - target: {fileID: 8069981403973934898, guid: 9d461d80bdf468a4abb42d551f87c357,
         type: 3}
       propertyPath: directionX
@@ -28274,7 +28268,7 @@ PrefabInstance:
         type: 3}
       propertyPath: KillObject
       value: 
-      objectReference: {fileID: 692824282}
+      objectReference: {fileID: 0}
     - target: {fileID: 8069981403973934898, guid: 9d461d80bdf468a4abb42d551f87c357,
         type: 3}
       propertyPath: directionX
@@ -28955,7 +28949,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 8171158352695083174}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 692824282}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83c8d37d500664cd589dc84f2feadcf3, type: 3}
@@ -29956,7 +29950,7 @@ PrefabInstance:
         type: 3}
       propertyPath: KillObject
       value: 
-      objectReference: {fileID: 692824282}
+      objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596522, guid: b1fdbeed9f683794eb4a7249a21c5463,
         type: 3}
       propertyPath: m_RootOrder

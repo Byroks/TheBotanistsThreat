@@ -4,7 +4,7 @@ using Pathfinding;
 
 public class FollowObject : MonoBehaviour
 {
-    public GameObject followObject;
+    public GameObject DestroyObject;
     public AIPath aiPath;
     public float chaseDistance = 5f;
     
@@ -41,8 +41,8 @@ public class FollowObject : MonoBehaviour
     }
 
     public void OnCollisionEnter2D(Collision2D other){
-        if(other.gameObject == followObject){
-            Destroy(followObject);
+        if(other.gameObject == DestroyObject){
+            Destroy(DestroyObject);
         }
 
     }
