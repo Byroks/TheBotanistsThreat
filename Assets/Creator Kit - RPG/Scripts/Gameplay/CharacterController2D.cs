@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using RPGM.Gameplay;
+using RPGM.Core;
 using UnityEngine;
 using UnityEngine.U2D;
 
@@ -35,8 +36,15 @@ namespace RPGM.Gameplay
         float velocity;
 
         public Collider2D coll;
-        
         Collider2D touchgingObject = null;
+        GameModel model = Schedule.GetModel<GameModel>();
+
+        [System.Serializable]
+        public class UsableItems{
+            public InventoryItem item;
+        }
+
+        public UsableItems[] usableItems;
 
         void IdleState()
         {
@@ -107,14 +115,6 @@ namespace RPGM.Gameplay
                 FindObjectOfType<GameManager>().GameOver();
             }
         }
-
-        // void OnTriggerStay2D(Collider2D coll){
-        //     if(Input.GetKey(KeyCode.Space)){
-        //         if(coll.gameObject.tag == "Enemy"){
-                    
-        //         }
-        //     }
-        // }
         
         void OnTriggerEnter2D(Collider2D coll){
             if(coll.gameObject.tag == "Enemy"){
@@ -124,7 +124,7 @@ namespace RPGM.Gameplay
         }
 
         void OnTriggerExit2D(Collider2D coll){
-            if(coll.gameObject.tag == "Enemy"){
+            if(coll.gameObject.tag == "Enemy" && coll == touchgingObject){
                 touchgingObject = null;
                 Debug.Log("No Touch!");
             }
@@ -151,7 +151,13 @@ namespace RPGM.Gameplay
         }
 
         void usingItem(){
-            if(touchgingObject!=null){
+            var inv = new HashSet<string>(model.InventoryItems);
+            if(touchgingObject!=null && model.GetInventoryCount("Schaufel") >= 1){
+                foreach (var i in usableItems){
+                    if (i.item.name == "Schaufel"){}
+                        model.RemoveInventoryItem(i.item, 1);
+                }
+                
                 touchgingObject.transform.position = CalculateThrow(touchgingObject);
             }
         }

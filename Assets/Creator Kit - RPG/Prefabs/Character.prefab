@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8171158353334016009}
   - component: {fileID: 8171158353334016011}
   - component: {fileID: 8171158353334016022}
+  - component: {fileID: 1391131799}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -145,6 +146,7 @@ MonoBehaviour:
   nextMoveCommand: {x: 0, y: 0, z: 0}
   animator: {fileID: 8171158353334016010}
   flipX: 1
+  coll: {fileID: 1391131799}
 --- !u!58 &8171158353334016011
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -177,6 +179,43 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0068097115, y: 0.15}
   m_Size: {x: 0.3, y: 0.01}
   m_Direction: 0
+--- !u!60 &1391131799
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171158353334016015}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.3, y: 0.5}
+      - {x: 1.3, y: -0.5}
+      - {x: 0.5, y: -0.5}
+      - {x: 0.5, y: -1.3}
+      - {x: -0.5, y: -1.3}
+      - {x: -0.5, y: -0.5}
+      - {x: -1.3, y: -0.5}
+      - {x: -1.3, y: 0.5}
+      - {x: -0.5, y: 0.5}
+      - {x: -0.5, y: 1.3}
+      - {x: 0.5, y: 1.3}
+      - {x: 0.5, y: 0.5}
 --- !u!1 &8171158353547470275
 GameObject:
   m_ObjectHideFlags: 0
