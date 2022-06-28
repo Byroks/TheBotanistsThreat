@@ -92,6 +92,9 @@ namespace RPGM.Gameplay
             if(Input.GetKeyDown(KeyCode.Space)){
                 usingItem();
             }
+            if(Input.GetKeyDown("r")){
+                emptyInventory();
+            }
         }
         
 
@@ -119,14 +122,12 @@ namespace RPGM.Gameplay
         void OnTriggerEnter2D(Collider2D coll){
             if(coll.gameObject.tag == "Enemy"){
                 touchgingObject = coll;
-                Debug.Log("Touch!");
             }
         }
 
         void OnTriggerExit2D(Collider2D coll){
             if(coll.gameObject.tag == "Enemy" && coll == touchgingObject){
                 touchgingObject = null;
-                Debug.Log("No Touch!");
             }
         }
 
@@ -159,6 +160,12 @@ namespace RPGM.Gameplay
                 }
                 
                 touchgingObject.transform.position = CalculateThrow(touchgingObject);
+            }
+        }
+
+        public void emptyInventory(){
+            foreach (var i in usableItems){
+                model.RemoveInventoryItem(i.item, model.GetInventoryCount(i.item.name));
             }
         }
     }

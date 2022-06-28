@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static bool GameIsPause = false;
     public GameObject pauseMenuUI;
     public GameObject GameOverUI;
+    public GameObject Charakter;
 
     void Update() {
         if (Input.GetKeyDown("r"))
