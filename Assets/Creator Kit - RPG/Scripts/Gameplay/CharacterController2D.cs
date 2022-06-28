@@ -34,6 +34,10 @@ namespace RPGM.Gameplay
         float distance;
         float velocity;
 
+        public Collider2D coll;
+        
+        Collider2D touchgingObject = null;
+
         void IdleState()
         {
             if (nextMoveCommand != Vector3.zero)
@@ -76,6 +80,10 @@ namespace RPGM.Gameplay
                     MoveState();
                     break;
             }
+
+            if(Input.GetKeyDown(KeyCode.Space)){
+                usingItem();
+            }
         }
         
 
@@ -95,10 +103,57 @@ namespace RPGM.Gameplay
         }
 
         void OnCollisionEnter2D(Collision2D other){
-        if(other.gameObject.tag == "Enemy"){
-            FindObjectOfType<GameManager>().GameOver();
+            if(other.gameObject.tag == "Enemy"){
+                FindObjectOfType<GameManager>().GameOver();
+            }
         }
 
-    }
+        // void OnTriggerStay2D(Collider2D coll){
+        //     if(Input.GetKey(KeyCode.Space)){
+        //         if(coll.gameObject.tag == "Enemy"){
+                    
+        //         }
+        //     }
+        // }
+        
+        void OnTriggerEnter2D(Collider2D coll){
+            if(coll.gameObject.tag == "Enemy"){
+                touchgingObject = coll;
+                Debug.Log("Touch!");
+            }
+        }
+
+        void OnTriggerExit2D(Collider2D coll){
+            if(coll.gameObject.tag == "Enemy"){
+                touchgingObject = null;
+                Debug.Log("No Touch!");
+            }
+        }
+
+        Vector3 CalculateThrow(Collider2D enemy){
+            float x = transform.position.x - enemy.transform.position.x;
+            float y = transform.position.y - enemy.transform.position.y;
+            if(x < 0.5 && x > -0.5){
+                if(y < 0)
+                    return new Vector3(enemy.transform.position.x, transform.position.y - 1, 0);
+                else
+                    return new Vector3(enemy.transform.position.x, transform.position.y + 1, 0);
+
+            }
+            else if (y < 0.5 && y > -0.5) {
+                if(x < 0)
+                    return new Vector3(transform.position.x - 1, enemy.transform.position.y, 0);
+                else
+                    return new Vector3(transform.position.x + 1, enemy.transform.position.y, 0);
+                    
+            }
+            return enemy.transform.position;
+        }
+
+        void usingItem(){
+            if(touchgingObject!=null){
+                touchgingObject.transform.position = CalculateThrow(touchgingObject);
+            }
+        }
     }
 }

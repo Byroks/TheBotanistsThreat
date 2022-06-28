@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2944041354305671966}
   - component: {fileID: 145583865198285038}
   - component: {fileID: 8087551665449364234}
-  - component: {fileID: 443571696733999093}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -97,25 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b307bce0951db674181652d44be1186c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followObject: {fileID: 0}
+  DestroyObject: {fileID: 0}
   aiPath: {fileID: 8427549277374472137}
   chaseDistance: 5
---- !u!58 &443571696733999093
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067187739244781305}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.83121765
 --- !u!1 &6050312672336128433
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +194,7 @@ GameObject:
   - component: {fileID: 3731436859241019498}
   - component: {fileID: 8427549277374472137}
   - component: {fileID: 4874127756157628239}
+  - component: {fileID: 2350983111591268718}
   m_Layer: 0
   m_Name: FollowPlant
   m_TagString: Enemy
@@ -339,3 +323,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!58 &2350983111591268718
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8835582639856596533}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.2}
+  serializedVersion: 2
+  m_Radius: 0.5

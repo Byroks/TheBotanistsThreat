@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2944041354305671966}
   - component: {fileID: 145583865198285038}
-  - component: {fileID: 443571696733999093}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -84,22 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &443571696733999093
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067187739244781305}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!1 &6050312672336128433
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,6 +176,7 @@ GameObject:
   - component: {fileID: 8835582639856596522}
   - component: {fileID: -9038539879098525555}
   - component: {fileID: 8069981403973934898}
+  - component: {fileID: 4268713693912677873}
   m_Layer: 0
   m_Name: PatrolPlant
   m_TagString: Enemy
@@ -249,6 +233,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe357352259721e4ea5505e6e608161d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionX: 4
+  directionX: -4
   directionY: 0
   KillObject: {fileID: 0}
+--- !u!58 &4268713693912677873
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8835582639856596533}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
