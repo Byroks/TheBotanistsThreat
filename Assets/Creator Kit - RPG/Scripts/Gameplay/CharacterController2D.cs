@@ -90,7 +90,12 @@ namespace RPGM.Gameplay
             }
 
             if(Input.GetKeyDown(KeyCode.Space)){
+                animator.SetBool("isChoping", true);
+                Debug.Log(animator.GetBool("isChoping"));
+                animator.SetTrigger("ChopingTrigger");
                 usingItem();
+                animator.SetBool("isChoping", false);
+                Debug.Log(animator.GetBool("isChoping"));
             }
             if(Input.GetKeyDown("r")){
                 emptyInventory();
