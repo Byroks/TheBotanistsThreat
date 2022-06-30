@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixerGroup: {fileID: 24300002, guid: 757bde2b477994d60bfff9141343ce02, type: 2}
-  audioClip: {fileID: 8300000, guid: c6b1e4491dcc9de4dad8102c76c2b05e, type: 3}
+  audioClip: {fileID: 8300000, guid: c972650970434554791733dc57f77cc8, type: 3}
   crossFadeTime: 3
 --- !u!1 &286793825
 GameObject:

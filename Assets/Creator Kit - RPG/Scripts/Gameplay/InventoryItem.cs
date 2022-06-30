@@ -28,12 +28,14 @@ namespace RPGM.Gameplay
             GetComponent<SpriteRenderer>().sprite = sprite;
         }
 
-        public void OnTriggerEnter2D(Collider2D collider)
+        public void OnCollisionEnter2D(Collision2D collider)
         {
-            MessageBar.Show($"{name} x {count}");
-            model.AddInventoryItem(this);
-            UserInterfaceAudio.OnCollect();
-            gameObject.SetActive(false);
+            if(collider.gameObject.tag == "Player"){
+                model.AddInventoryItem(this);
+                MessageBar.Show($"{name} x {count}");
+                UserInterfaceAudio.OnCollect();
+                gameObject.SetActive(false);
+            }
         }
     }
 }
