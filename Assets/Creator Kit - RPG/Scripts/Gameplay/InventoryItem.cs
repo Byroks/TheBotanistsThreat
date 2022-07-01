@@ -15,8 +15,13 @@ namespace RPGM.Gameplay
     {
         public int count = 1;
         public Sprite sprite;
+        AudioSource audioSource;
 
         GameModel model = Schedule.GetModel<GameModel>();
+
+        void awake(){
+            audioSource = GetComponent<AudioSource>();
+        }
 
         void Reset()
         {
@@ -31,10 +36,10 @@ namespace RPGM.Gameplay
         public void OnCollisionEnter2D(Collision2D collider)
         {
             if(collider.gameObject.tag == "Player"){
+                gameObject.SetActive(false);
                 model.AddInventoryItem(this);
                 MessageBar.Show($"{name} x {count}");
                 UserInterfaceAudio.OnCollect();
-                gameObject.SetActive(false);
             }
         }
     }

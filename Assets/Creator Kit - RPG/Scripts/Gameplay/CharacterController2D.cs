@@ -46,6 +46,15 @@ namespace RPGM.Gameplay
 
         public UsableItems[] usableItems;
 
+        public class Audio{
+            
+        }
+        
+        AudioSource audioSource;
+            public AudioClip chopAudio;
+            public AudioClip moveAudio;
+            public AudioClip dieAudio;
+
         void IdleState()
         {
             if (nextMoveCommand != Vector3.zero)
@@ -65,6 +74,7 @@ namespace RPGM.Gameplay
             velocity = Mathf.Clamp01(velocity + Time.deltaTime * acceleration);
             UpdateAnimator(nextMoveCommand);
             rigidbody2D.velocity = Vector2.SmoothDamp(rigidbody2D.velocity, nextMoveCommand * speed, ref currentVelocity, acceleration, speed);
+            // audioSource.Play();
             //spriteRenderer.flipX = rigidbody2D.velocity.x >= 0 ? true : false;
         }
 
@@ -90,10 +100,10 @@ namespace RPGM.Gameplay
             }
 
             if(Input.GetKeyDown(KeyCode.Space)){
-                animator.SetBool("isChoping", true);
-                animator.SetTrigger("ChopingTrigger");
+                // animator.SetBool("isChoping", true);
+                
                 usingItem();
-                animator.SetBool("isChoping", false);
+                // animator.SetBool("isChoping", false);
             }
             if(Input.GetKeyDown("r")){
                 emptyInventory();
@@ -114,10 +124,12 @@ namespace RPGM.Gameplay
             rigidbody2D = GetComponent<Rigidbody2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             pixelPerfectCamera = GameObject.FindObjectOfType<PixelPerfectCamera>();
+            audioSource = GetComponent<AudioSource>();
         }
 
         void OnCollisionEnter2D(Collision2D other){
             if(other.gameObject.tag == "Enemy"){
+                audioSource.PlayOneShot(dieAudio, 0.75f);
                 FindObjectOfType<GameManager>().GameOver();
             }
         }
@@ -157,6 +169,8 @@ namespace RPGM.Gameplay
         void usingItem(){
             var inv = new HashSet<string>(model.InventoryItems);
             if(touchgingObject!=null && model.GetInventoryCount("Schaufel") >= 1){
+                audioSource.PlayOneShot(chopAudio, 0.7f);
+                animator.SetTrigger("ChopingTrigger");
                 foreach (var i in usableItems){
                     if (i.item.name == "Schaufel"){}
                         model.RemoveInventoryItem(i.item, 1);

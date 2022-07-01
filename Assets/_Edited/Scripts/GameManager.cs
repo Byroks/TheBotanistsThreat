@@ -55,4 +55,10 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0;
         }
     }
+
+    void OnCollisionEnter2D (Collision2D other){
+        if(other.gameObject.tag == "Player"){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        }
+    }
 }
