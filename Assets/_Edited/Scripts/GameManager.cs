@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static bool GameIsPause = false;
     public GameObject pauseMenuUI;
     public GameObject GameOverUI;
+    public GameObject NextLevelUI;
     public GameObject Charakter;
 
     void Update() {
@@ -56,9 +57,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void NextLevel(){
+        NextLevelUI.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        Time.timeScale = 1;
+    }
+
     void OnCollisionEnter2D (Collision2D other){
         if(other.gameObject.tag == "Player"){
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            NextLevelUI.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }
