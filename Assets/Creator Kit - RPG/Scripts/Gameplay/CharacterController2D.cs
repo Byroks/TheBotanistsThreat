@@ -129,8 +129,17 @@ namespace RPGM.Gameplay
 
         void OnCollisionEnter2D(Collision2D other){
             if(other.gameObject.tag == "Enemy"){
-                audioSource.PlayOneShot(dieAudio, 0.75f);
-                FindObjectOfType<GameManager>().GameOver();
+                if(model.GetInventoryCount("Flammenwerfer") == 0){
+                    audioSource.PlayOneShot(dieAudio, 0.75f);
+                    FindObjectOfType<GameManager>().GameOver();
+                }
+                else{
+                    other.gameObject.SetActive(false);
+                    foreach (var i in usableItems){
+                        if (i.item.name == "Flammenwerfer")
+                            model.RemoveInventoryItem(i.item, 1);
+                    }
+                }
             }
         }
         
@@ -167,12 +176,11 @@ namespace RPGM.Gameplay
         }
 
         void usingItem(){
-            var inv = new HashSet<string>(model.InventoryItems);
             if(touchgingObject!=null && model.GetInventoryCount("Schaufel") >= 1){
                 audioSource.PlayOneShot(chopAudio, 0.7f);
                 animator.SetTrigger("ChopingTrigger");
                 foreach (var i in usableItems){
-                    if (i.item.name == "Schaufel"){}
+                    if (i.item.name == "Schaufel")
                         model.RemoveInventoryItem(i.item, 1);
                 }
                 

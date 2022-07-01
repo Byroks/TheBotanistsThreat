@@ -48,7 +48,7 @@ public class FollowObject : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D other){
         if(other.gameObject.tag == "Enemy"){
-            Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
         }
 
     }
