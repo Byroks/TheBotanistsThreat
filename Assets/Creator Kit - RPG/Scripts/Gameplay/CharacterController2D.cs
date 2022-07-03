@@ -74,8 +74,6 @@ namespace RPGM.Gameplay
             velocity = Mathf.Clamp01(velocity + Time.deltaTime * acceleration);
             UpdateAnimator(nextMoveCommand);
             rigidbody2D.velocity = Vector2.SmoothDamp(rigidbody2D.velocity, nextMoveCommand * speed, ref currentVelocity, acceleration, speed);
-            // audioSource.Play();
-            //spriteRenderer.flipX = rigidbody2D.velocity.x >= 0 ? true : false;
         }
 
         void UpdateAnimator(Vector3 direction)
@@ -100,10 +98,7 @@ namespace RPGM.Gameplay
             }
 
             if(Input.GetKeyDown(KeyCode.Space)){
-                // animator.SetBool("isChoping", true);
-                
                 usingItem();
-                // animator.SetBool("isChoping", false);
             }
             if(Input.GetKeyDown("r")){
                 emptyInventory();
@@ -134,11 +129,15 @@ namespace RPGM.Gameplay
                     FindObjectOfType<GameManager>().GameOver();
                 }
                 else{
-                    other.gameObject.SetActive(false);
+                    
                     foreach (var i in usableItems){
                         if (i.item.name == "Flammenwerfer")
                             model.RemoveInventoryItem(i.item, 1);
                     }
+                    other.gameObject.transform.GetChild(2).gameObject.SetActive(true);
+                    other.gameObject.GetComponent<CircleCollider2D>().enabled = false;
+                    other.gameObject.GetComponentInChildren<Animator>().SetTrigger("Explosion");
+                    // other.gameObject.SetActive(false);
                 }
             }
         }

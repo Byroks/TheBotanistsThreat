@@ -4,7 +4,7 @@ using Pathfinding;
 
 public class FollowObject : MonoBehaviour
 {
-    public GameObject DestroyObject;
+    public GameObject KillObject;
     public AIPath aiPath;
     public float chaseDistance = 5f;
 
