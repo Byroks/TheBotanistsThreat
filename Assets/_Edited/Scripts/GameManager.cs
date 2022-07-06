@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void GameOver(){
-        if(!gameHasEnded){
+        if(!gameHasEnded && GameOverUI != null){
             gameHasEnded = true;
             GameOverUI.SetActive(true);
             Time.timeScale = 0;
