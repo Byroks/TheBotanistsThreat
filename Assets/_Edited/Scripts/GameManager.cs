@@ -18,11 +18,13 @@ public class GameManager : MonoBehaviour
                 Invoke("Restart", 0.2f);
             }
         if(Input.GetKeyDown(KeyCode.Escape)){
-            if(!GameIsPause){
-                Pause();
-            }
-            else{
-                Resume();
+            if(pauseMenuUI != null){
+                if(!GameIsPause){
+                    Pause();
+                }
+                else{
+                    Resume();
+                }
             }
         }
     }

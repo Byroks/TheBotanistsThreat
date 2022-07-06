@@ -46,14 +46,10 @@ namespace RPGM.Gameplay
 
         public UsableItems[] usableItems;
 
-        public class Audio{
-            
-        }
-        
         AudioSource audioSource;
-            public AudioClip chopAudio;
-            public AudioClip moveAudio;
-            public AudioClip dieAudio;
+        public AudioClip chopAudio;
+        public AudioClip moveAudio;
+        public AudioClip dieAudio;
 
         void IdleState()
         {
@@ -100,9 +96,6 @@ namespace RPGM.Gameplay
             if(Input.GetKeyDown(KeyCode.Space)){
                 usingItem();
             }
-            if(Input.GetKeyDown("r")){
-                emptyInventory();
-            }
         }
         
 
@@ -137,7 +130,6 @@ namespace RPGM.Gameplay
                     other.gameObject.transform.GetChild(2).gameObject.SetActive(true);
                     other.gameObject.GetComponent<CircleCollider2D>().enabled = false;
                     other.gameObject.GetComponentInChildren<Animator>().SetTrigger("Explosion");
-                    // other.gameObject.SetActive(false);
                 }
             }
         }
@@ -178,12 +170,11 @@ namespace RPGM.Gameplay
             if(touchgingObject!=null && model.GetInventoryCount("Schaufel") >= 1){
                 audioSource.PlayOneShot(chopAudio, 0.7f);
                 animator.SetTrigger("ChopingTrigger");
+                touchgingObject.transform.position = CalculateThrow(touchgingObject);
                 foreach (var i in usableItems){
                     if (i.item.name == "Schaufel")
                         model.RemoveInventoryItem(i.item, 1);
                 }
-                
-                touchgingObject.transform.position = CalculateThrow(touchgingObject);
             }
         }
 
