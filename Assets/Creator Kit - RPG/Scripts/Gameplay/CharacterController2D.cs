@@ -159,11 +159,9 @@ namespace RPGM.Gameplay
             else if (y < 0.5 && y > -0.5) {
                 if(x < 0)
                     return new Vector3(transform.position.x - 1, enemy.transform.position.y, 0);
-                else
-                    return new Vector3(transform.position.x + 1, enemy.transform.position.y, 0);
                     
             }
-            return enemy.transform.position;
+            return new Vector3(transform.position.x + 1, enemy.transform.position.y, 0);
         }
 
         void usingItem(){

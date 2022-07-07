@@ -4,7 +4,7 @@ using Pathfinding;
 
 public class FollowObject : MonoBehaviour
 {
-    public GameObject KillObject;
+    public bool killEnemies;
     public AIPath aiPath;
     public float chaseDistance = 5f;
 
@@ -35,7 +35,7 @@ public class FollowObject : MonoBehaviour
             transform.localScale = new Vector3 (1f, 1f, 1f);
         }
 
-        if(aiPath.remainingDistance > chaseDistance*2 && !aiPath.isStopped){
+        if(aiPath.remainingDistance > chaseDistance*1.5 && !aiPath.isStopped){
             aiPath.isStopped = true;
         }
         else if(aiPath.remainingDistance < chaseDistance && aiPath.isStopped){
@@ -47,7 +47,7 @@ public class FollowObject : MonoBehaviour
     }
 
     public void OnCollisionEnter2D(Collision2D other){
-        if(other.gameObject.tag == "Enemy"){
+        if(other.gameObject.tag == "Enemy" && killEnemies){
             other.gameObject.SetActive(false);
         }
 
