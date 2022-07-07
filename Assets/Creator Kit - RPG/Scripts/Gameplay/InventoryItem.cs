@@ -38,7 +38,8 @@ namespace RPGM.Gameplay
             if(collider.gameObject.tag == "Player"){
                 gameObject.SetActive(false);
                 model.AddInventoryItem(this);
-                MessageBar.Show($"{name} x {count}");
+                if(count != 0)
+                    MessageBar.Show($"{name} x {count}");
                 UserInterfaceAudio.OnCollect();
             }
         }
