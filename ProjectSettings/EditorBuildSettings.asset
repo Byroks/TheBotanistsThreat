@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/_Edited/_Scenes/Menu.unity
     guid: ae31b5fd04019e24b928c52944825be0
   - enabled: 1
+    path: Assets/_Edited/_Scenes/HausLevel.unity
+    guid: 841ba0fab000dd847ac8ac5bd67e60ce
+  - enabled: 1
     path: Assets/_Edited/_Scenes/Garten_v2.unity
     guid: c2e592a5bf1c6f44aa9b48a556ff27d7
   - enabled: 1
