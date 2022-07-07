@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Edited/_Scenes/Stadtlevel_v2.unity
     guid: c9d9438ec8b623b4591511b5eb23d3f2
+  - enabled: 1
+    path: Assets/_Edited/_Scenes/Credits.unity
+    guid: 7bd93cb7c8cdb654cbacb177942cd579
   m_configObjects: {}
