@@ -49,13 +49,13 @@ namespace RPGM.UI
 
         void CharacterControl()
         {
-            if (Input.GetKey(KeyCode.UpArrow))
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
                 model.player.nextMoveCommand = Vector3.up * stepSize;
-            else if (Input.GetKey(KeyCode.DownArrow))
+            else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
                 model.player.nextMoveCommand = Vector3.down * stepSize;
-            else if (Input.GetKey(KeyCode.LeftArrow))
+            else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
                 model.player.nextMoveCommand = Vector3.left * stepSize;
-            else if (Input.GetKey(KeyCode.RightArrow))
+            else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
                 model.player.nextMoveCommand = Vector3.right * stepSize;
             else
                 model.player.nextMoveCommand = Vector3.zero;
