@@ -135,7 +135,7 @@ namespace RPGM.Gameplay
         }
         
         void OnTriggerEnter2D(Collider2D coll){
-            if(coll.gameObject.tag == "Enemy"){
+            if(coll.gameObject.tag == "Enemy" && touchgingObject == null){
                 touchgingObject = coll;
             }
         }
@@ -159,19 +159,22 @@ namespace RPGM.Gameplay
             else if (y < 0.5 && y > -0.5) {
                 if(x < 0)
                     return new Vector3(transform.position.x - 1, enemy.transform.position.y, 0);
-                    
+                else
+                    return new Vector3(transform.position.x + 1, enemy.transform.position.y, 0);
             }
-            return new Vector3(transform.position.x + 1, enemy.transform.position.y, 0);
+            return enemy.transform.position;
         }
 
         void usingItem(){
             if(touchgingObject!=null && model.GetInventoryCount("Schaufel") >= 1){
                 audioSource.PlayOneShot(chopAudio, 0.7f);
                 animator.SetTrigger("ChopingTrigger");
-                touchgingObject.transform.position = CalculateThrow(touchgingObject);
-                foreach (var i in usableItems){
-                    if (i.item.name == "Schaufel")
-                        model.RemoveInventoryItem(i.item, 1);
+                if(touchgingObject.transform.position != CalculateThrow(touchgingObject)){
+                    touchgingObject.transform.position = CalculateThrow(touchgingObject);
+                    foreach (var i in usableItems){
+                        if (i.item.name == "Schaufel")
+                            model.RemoveInventoryItem(i.item, 1);
+                    }
                 }
             }
         }
