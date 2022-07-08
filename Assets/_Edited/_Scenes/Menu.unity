@@ -1194,9 +1194,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Nutze die Pfeiltasten oder WSAD um dich zu bewegen.\n\nDie Schaufel benutzt
-    du mit der Leertaste.\n\nDer Flammenwerfer wird automatisch verwendet wenn du
-    einen Gegner ber\xFChrst."
+  m_text: 'Nutze die Pfeiltasten oder WSAD um dich zu bewegen.
+
+
+    Die Schaufel
+    benutzt du mit der Leertaste.
+
+
+    Der Flammenwerfer wird automatisch verwendet
+    wenn du von einem Gegner getroffen wirst.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4422fd8cf2666b84386346b5283ad2a7, type: 2}
   m_sharedMaterial: {fileID: 21040265067069690, guid: 4422fd8cf2666b84386346b5283ad2a7,
