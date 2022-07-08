@@ -56,31 +56,33 @@ namespace RPGM.Gameplay
 
         public void OnTriggerEnter2D(Collider2D collider)
         {
+            
             if (!Application.isPlaying) return;
-
-            foreach (var requiredInventoryItem in requiredInventoryItems)
-                if (requiredInventoryItem != null)
-                    if (!model.HasInventoryItem(requiredInventoryItem.name))
-                        return;
-            foreach (var requiredStoryItem in requiredStoryItems)
-                if (requiredStoryItem != null)
-                    if (!model.HasSeenStoryItem(requiredStoryItem.ID))
-                        return;
-            if (text != string.Empty)
-                MessageBar.Show(text);
-            if (ID != string.Empty)
-                model.RegisterStoryItem(ID);
-            if (audioClip == null)
-                UserInterfaceAudio.OnStoryItem();
-            else
-                UserInterfaceAudio.PlayClip(audioClip);
-            if (disableWhenDiscovered) gameObject.SetActive(false);
-            if (cutscenePrefab != null)
-            {
-                var cs = Instantiate(cutscenePrefab);
-                if (cs.audioClip != null)
+            if(collider.gameObject.tag == "Player"){
+                foreach (var requiredInventoryItem in requiredInventoryItems)
+                    if (requiredInventoryItem != null)
+                        if (!model.HasInventoryItem(requiredInventoryItem.name))
+                            return;
+                foreach (var requiredStoryItem in requiredStoryItems)
+                    if (requiredStoryItem != null)
+                        if (!model.HasSeenStoryItem(requiredStoryItem.ID))
+                            return;
+                if (text != string.Empty)
+                    MessageBar.Show(text);
+                if (ID != string.Empty)
+                    model.RegisterStoryItem(ID);
+                if (audioClip == null)
+                    UserInterfaceAudio.OnStoryItem();
+                else
+                    UserInterfaceAudio.PlayClip(audioClip);
+                if (disableWhenDiscovered) gameObject.SetActive(false);
+                if (cutscenePrefab != null)
                 {
-                    cs.OnFinish += (i) => model.musicController.CrossFade(model.musicController.audioClip);
+                    var cs = Instantiate(cutscenePrefab);
+                    if (cs.audioClip != null)
+                    {
+                        cs.OnFinish += (i) => model.musicController.CrossFade(model.musicController.audioClip);
+                    }
                 }
             }
         }
